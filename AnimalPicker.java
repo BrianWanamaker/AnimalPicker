@@ -12,12 +12,12 @@ class AnimalPicker
             String input = in.nextLine();
             if(input.toLowerCase().equals("dog"))
             {
-                System.out.println("DOG ASCII ART HERE");
+                System.out.println("  __      _\no\'\')}____//\n `_/      )\n (_(_/-(_/");
                 done=true;
             }
             else if(input.toLowerCase().equals("cat"))
             {
-                System.out.println("CAT ASCII ART HERE");
+                System.out.println("  /\\_/\\  (\n ( ^.^ ) _)\n   \\\"/  (\n ( | | )\n(__d b__)");
                 done=true;
             }
             else
