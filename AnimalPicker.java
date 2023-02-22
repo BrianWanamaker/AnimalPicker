@@ -8,7 +8,7 @@ class AnimalPicker
         boolean done=false;
         while(!done)
         {
-            System.out.println("Would you like to see a 'dog' or a 'cat' ?");
+            System.out.println("Would you like to see a 'dog','cat', or a 'fish' ?");
             String input = in.nextLine();
             if(input.toLowerCase().equals("dog"))
             {
@@ -18,6 +18,11 @@ class AnimalPicker
             else if(input.toLowerCase().equals("cat"))
             {
                 System.out.println("  /\\_/\\  (\n ( ^.^ ) _)\n   \\\"/  (\n ( | | )\n(__d b__)");
+                done=true;
+            }
+            else if(input.toLowerCase().equals("fish"))
+            {
+                System.out.println("(..       \\_    ,  |\\  /|\n \\       O  \\  /|  \\ \\/ /\n  \\______    \\/ |   \\  / \n     vvvv\\    \\ |   /  |\n     \\^^^^  ==   \\_/   |\n      `\\_   ===    \\.  |\n      / /\\_   \\ /      |\n      |/   \\_  \\|      /\n             \\________/");
                 done=true;
             }
             else
